@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, #131A40, #4E64A6);
+}
+
+.body-int {
+    margin: 30px;
+    background-color: white;
+}

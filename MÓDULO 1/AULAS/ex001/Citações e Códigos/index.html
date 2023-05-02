@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h1> Outras formatações </h1>
+    <h2> Código fonte </h2>
+    <p> O comando <code>document.getElementById('teste')</code> É escrito em JavaScript </p>
+    <!--a fonte fica mono espaçada, ótima para ler códigos-->
+    <code>
+        nun = int(input('Digite um número'))
+        if nun % 2 == 0;
+            print(f'O número {nun} é PAR )
+        else:
+            print(f'O número {nun} é ÍMPAR ) 
+        print('Fim do programa')
+    </code>
+    <!--O code não formata o texto como forma do código-->
+    <pre>
+        <code>
+nun = int(input('Digite um número'))
+if nun % 2 == 0;
+    print(f'O número {nun} é PAR )
+else:
+    print(f'O número {nun} é ÍMPAR )
+print('Fim do programa')
+        </code>
+    </pre>
+    <!--Já a tag "pre" considera os espaçamentos, quebras de linhas etc...Pode-se juntar os dois -->
+    <h2> Citações </h2>
+    <p> 
+        <q>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto unde voluptatem rerum, quam fuga itaque aliquid nobis sint assumenda corporis minima voluptas eos eveniet nam maiores, repellat autem pariatur porro!
+        <q> 
+    </p>
+    <!--TAG "Q" USA-SE PARA CITAÇÕES -->
+    <h2> Citações completas </h2>
+    <p> Segundo Jeff Nobel, no seu livro HTML para leigos </p>
+        <blockquote contenteditable="https://books.google.com.br/books?id=j0lpDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates officia, quam voluptate dolore ex et id dolor est adipisci blanditiis dicta magni beatae quo doloremque eveniet praesentium ullam amet esse!
+        </blockquote>
+        <!--TAG "BLOCKQUOTE" É UMA CITAÇÃO POREM CRIA UM BLOCO DE CITAÇÃO, DESLOCANDO O TEXTO, PODENDO ADICIONAR "CONTENTEDITABLE" COM O LINK DE ONDE FOI TIRADO A CITAÇÃO PARA FACILITAR OS MECANISMOS DE BUSCA, PORÉM NÃO AFETA NADA NO VISUAL-->
+        <h1> Abreviações </h1>
+        <p> Estou estudando <abbr title="HiperText Markup Language">HTML</abbr> e CSS </p>
+        <!--TAG "ABBR" INDICA O QUE É A ABREVIAÇÃO AO PASSAR O MOUSE EM CIMA -->
+        <h1> Texto invertido </h1>
+        <p> <bdo dir="rtl"> Estou com fome! </bdo> </p>
+        <p> <bdo dir="ltr"> Estou com fome! </bdo> </p>
+        <!--tag bdo indica a direção do texto com "RTL" (RIGHT TO LEFT - DIREITA PRA ESQUERDA) e "LTR" (LEFT TO RIGTH - ESQUERDA PRA DIREITA) PODENDO ASSIM INVERTER O TEXTO-->
+</body>
+</html>

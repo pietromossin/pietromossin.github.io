@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Audio</title>
+</head>
+<body>
+    <h1> Reproduzindo audios em HTML </h1>
+    <audio src="img/sigilo - mossin v2.wav" controls></audio>
+    <!--TAG AUDIO PARA COLOCAR AUDIOS-->
+    <!--CONTROLS = BOTÃO DE AUDIO-->
+    <!--AUTOPLAY = QUANDO CARREGADO O SITE, O AUDIO É REPRODUZIDO AUTOMATICAMENTE-->
+    <!--FORMATOS CARREGADOS = MP3, WAV, OGG-->
+    <br>
+    <audio preload="metadata" controls loop>
+        <source src="img/sigilo - mossin v2.wav" type="audio/wav">
+        <!--MP3 (AUDIO/MPEG) OGG (AUDIO/OGG) WAV (AUDIO/WAV)-->
+        <!--
+            PRELOAD:
+            AUTO: APENAS CARREGA O SITE QUANDO O ARQUIVO DE AUDIO FOR INTEIRO CARREGADO
+            METADATA: CARREGA NOME DO ARQUIVO, DATA, DURAÇÃO, ETC
+            NONE: NÃO CARREGA NADA
+        -->
+        <!--LOOP: LOOP DO AUDIO-->
+    </audio>
+</body>
+</html>

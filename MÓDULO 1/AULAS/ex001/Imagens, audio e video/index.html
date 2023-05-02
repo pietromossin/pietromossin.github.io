@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1> Imagem dinâmica </h1>
+    <p> Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <!--Carrega a foto G (1000px) e se o dispositivo tiver menos que 1000 pixels, mosta a foto M (700px)-->
+        <!--sempre bom por 50 px a mais pra evitar a barra de rolagem-->
+        <img src="img/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <!--TAG PICTURE = Mesma função que a tag img porém permite criar várias fontes (sources) -->
+    <!--Sempre de menor pro maior, de cima pra baixo, MAIOR EM BAIXO, MENOR EM CIMA-->
+</body>
+</html>

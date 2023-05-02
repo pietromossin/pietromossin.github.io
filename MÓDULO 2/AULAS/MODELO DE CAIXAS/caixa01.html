@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 { /* elemento tipo box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen;
+            /* ou border: 10px solid darkgreen; */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* cima, direita, baixo, esquerda (sentido horário)*/
+            /* ou padding: 10px 10px 10px 10px; */
+            /* ou padding: 10px; informa que todos os lados sejem iguais com um valor apenas */
+            /* se coloca apenas dois valores como ( padding: 10px 20px; fica 10 px cima e baixa e 20px direita e esquerda, ele da os dois valores pros lados opostos ) */
+            
+            /* display: inline; transfomra o box level em inline, e também o inline em box level*/
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-left: 10px;
+            /* margin:auto; centraliza a margin exatamente no meio da tela */
+            /* ou margin: 10px 10px 10px 10px;*/
+            /* podemos centralizar algumas margins do lado que preferirmos como (margin: 10px auto 10px auto;) */
+            
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(37, 131, 100);
+            /* outline existe dentro da margin, n aumenta ou diminui a margin mas pode estrapolar ela */
+            /* ou outline: 5px dashed lightgreen; */
+        }
+
+        a { /* inline-level */ 
+            border-width: 10px;
+            border-style: solid;
+            /*dashed (pontilhado) solid (borda solida dotted (pontilhadi) double (linha dupla) groove (margin tridimensional)*/
+            border-color: red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1> Exemplo de caixa box-level </h1>
+    <p> Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona </p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'London';
+    src: url('LondonBoutique_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        TIPOS DE FORMAT
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+h1 {
+    font-family: 'London', serif;
+    font-size: 3em;
+    font-weight: normal;
+}

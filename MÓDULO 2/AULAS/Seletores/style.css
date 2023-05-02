@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: rgb(171, 240, 171);
+}
+
+h1#principal {
+    color: white;
+    background-color: green;
+    /* Usando o id com o # também pode ser '#nomedoid' */
+}
+
+h1 {
+    color: rgb(71, 67, 67);
+}
+
+h2 {
+    color: gray;
+}

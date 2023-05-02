@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos no HTML</title>
+</head>
+<body>
+    <h1> Inserindo vídeos hospedados localmente </h1>
+    <!--FORMATOS DE VIDEOS (MP4, M4V, WEBM, OGV)-->
+    <video src="img/meuvideo.mp4" width="500" controls></video>
+    <!--Inserindo videos para que todos os modos sejam hospedados para que cada navegador possa usar o que lhe convem e todos carregarem o video-->
+    <video width="500" poster="img/veighbabe.jpg" controls>
+        <!--
+            "poster" = a thumb que aparecerá antes de iniciar o video
+            "controls" = para aparecer os controles de video no media
+        -->
+        <source src="img/meuvideo.mp4" type="video/mp4">
+        <source src="img/meuvideo720p.mp4" type="video/mp4">
+        <!--Todos os tipos de vídeos para que possam ler em todos os navegadores... se um não for o outro irá iniciar em outro tipo de arquivo suportado-->
+        <p> Seu navegador não tem suporte para este vídeo </p>
+        <!--Essa mensagem aparecerá caso seu navegador não suportar nenhum dos arquivos de vídeo-->
+    </video>
+    <h2> Inserindo videos do youtube </h2>    
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/ROOvpK2fD7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

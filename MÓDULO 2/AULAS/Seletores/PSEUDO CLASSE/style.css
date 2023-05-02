@@ -1,0 +1,13 @@
+div {
+    display: inline-block;
+    background-color: rgb(163, 150, 150);
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: gold;
+}
+/* demonstra um estado do elemento ou classe, no caso o hover, que assim que passamos o mouse em cima do elemento ele muda para o que modificamos no css */

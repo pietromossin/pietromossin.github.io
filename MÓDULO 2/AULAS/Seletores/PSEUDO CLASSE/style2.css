@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover {
+    color: rgb(172, 43, 43);
+}
+
+div:hover > p {
+    display: block;
+    color: yellow;
+    background-color: brown;
+}
+
+div > p {
+    display: none;
+}
+/* '>' significa o filho do elemento no caso o parágrafo dentro de div */

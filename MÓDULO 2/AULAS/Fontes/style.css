@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Usa-se a primeira que achar entre as ordens colocadas */
+    /* Quando a fonte tem nome com duas palavras usa-se aspas ex: 'Courier New' */
+    font-size: 16px;
+    /*
+    MEDIDAS:
+    ABSOLUTAS: cm, mm, in, pv, pt, pc
+    RELATIVAS: em(tamanho da maiscula), ex(tamanho da altura x da fonte), rem(relativo ao body), vw(largura da viewport), vh(Altura da viewport), %
+    RECOMENDAÇÃO: px e em
+    */
+    font-weight: lighter;
+    /* Peso da fonte */
+    /* Lighter normal bold bolder */
+    /* 100 - 900 */
+    font-style: italic;
+    /* normal italic */
+    text-decoration: underline;
+    /* Sublinhado */
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    /* 
+        shorthand 
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 3em Arial, sans-serif;
+}
+
+h2 {
+    font: italic bold 2em Arial, sans-serif;
+}
+

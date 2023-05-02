@@ -1,0 +1,18 @@
+
+* {
+    height: 100%;
+    /* Configurações globais do CSS */
+}
+body {
+    background-image: linear-gradient(to bottom, #691FF5 8%, #8B18E5, #B40FD5, #D10AC7, #F11588, #F52560, #F3622A, #F6C105);
+    /* linear gradient para dar efeito de gradiante, primeira opção se da a direção do efeito e a segunda opção as cores de qual cor pra qual cor na direção selecionada em primeira ordem 
+    top top, bottom, right, left
+    também pode ser em graus ex= 45deg
+    PODE ORGANIZAR A % QUE A COR  APARECERÁ NA TELA
+
+    PODE SER O "radial-gradient(circle)
+    que deixa o gradiente em círculo"
+    */
+    background-attachment: fixed;
+    /* Mesmo com a rolagem, o background fica fixo */
+}

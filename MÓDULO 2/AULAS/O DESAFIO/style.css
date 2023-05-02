@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Droid';
+    src: url(./fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER / NAV (TOP SIDE)---------------------------------------- */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #13E051,#086122);
+    margin: 0px;
+}
+
+header > h1, p {
+    color: white;
+    margin: 0px;
+    outline: none;
+    border: 0px;
+}
+
+header > h1 {
+    padding-top: 20px;
+}
+
+header > p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #086122;
+    padding: 5px;
+    margin: 0px;
+}
+
+#h1diff {
+    padding-left: 15px;
+}
+
+.nh1 {
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    border: 0px;
+    outline: none;
+}
+
+nav > h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav >h1 > a:hover {
+    background-color: #87faa956;
+}
+
+/* SECTION 01--------------------------------------- */
+#sec01 > h1 {
+    font-family: 'Droid', sans-serif;
+}
+
+#sec01 > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#body {
+    background-color: #87FAA9;
+    margin: auto;
+    padding: 0px;
+}
+
+#sec01 {
+    background-color: white;
+    width: 600px;
+    padding: 0px 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#sec01 > h1 {
+    margin: 0px;
+    padding: 15px 0px 10px 0px;
+    border: 0px;
+    outline: none;
+    color: #0EAD3E;
+    text-align: left;
+}
+
+#sec01 > p > a {
+    text-decoration: none;
+    color: #0EAD3E;
+}
+
+/* SECTION 02-----------------------------------------*/
+
+#sec02 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+}
+
+#sec02 > h2 {
+    font-family: 'Droid';
+    color: #0EAD3E;
+    background-image: linear-gradient(to right, #0ead3e49, white);
+    margin: 0px;
+    padding: 5px 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#sec02 > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#sec02 > p > a {
+    text-decoration: none;
+    color:#0EAD3E;
+}
+
+#sec02 > p > a:hover {
+    text-decoration: underline;
+}
+
+.link1::after {
+    content: '✄';
+}
+
+#img01 {
+    margin: auto;
+    width: 600px;
+}
+
+/* SECTION 03 ----------------------------------- */
+
+#sec03 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+}
+
+#sec03 > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+#sec03 > h2 {
+    font-family: 'Droid';
+    color: #0EAD3E;
+    background-image: linear-gradient(to right, #0ead3e49, white);
+    margin: 0px;
+    padding: 5px 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#img02 {
+    width: 600px;
+}
+
+/* SECTION 04 ------------------------------------------- */
+#sec04 {
+    background-color: #086122;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+}
+
+#vid01 {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+/* SECTION 05 ------------------------------------------ */
+
+#sec05 {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+}
+
+#tabela {
+    width: 600px;
+    background-color:#87FAA9;
+}
+
+#tabela > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0EAD3E;
+    padding: 5px;
+    margin: 0px;
+}
+
+#tabela > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.lista {
+    width: 200px;
+}
+
+#sec05 > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 5px 10px;
+}
+
+/* FOOTER ------------------------------------------- */
+
+footer {
+    background-color: #086122;
+    text-align: center;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}

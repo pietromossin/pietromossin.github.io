@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+/* Link já visitado */
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+/* Quando passa o mouse em cima */
+
+a:active {
+    color: yellow;
+}
+/*quando estiver ativo*/
+
+a::after {
+    content: '(link)';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+/*
+    pseudo elementos:meche diretamente no conteudo
+    usa-se ::  ao inves de : como é nos pseudo classe
+*/
+
+.especial {
+    background-color: rgb(201, 255, 157);
+}
+
+.especial::before {
+    content: '→';
+}
+
+.especial::after {
+    content: '←';
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
